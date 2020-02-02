@@ -3,7 +3,6 @@ package com.hadoop.hlsijx.reducejoin.driver;
 import com.hadoop.hlsijx.reducejoin.mapper.ReduceJoinMapper;
 import com.hadoop.hlsijx.reducejoin.model.JoinData;
 import com.hadoop.hlsijx.reducejoin.reduce.ReduceJoinReduce;
-import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;

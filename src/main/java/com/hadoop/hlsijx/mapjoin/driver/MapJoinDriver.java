@@ -14,7 +14,7 @@ import static com.hadoop.hlsijx.HadoopConfig.getConfiguration;
 
 /**
  * @author hlsijx
- * 特点：join在map端完成，没有shulle的过程
+ * 特点：join在map端完成，没有shuffle的过程
  * 使用场景：一张大表和一张小表
  * 实现原理：
  *      将小表的数据放入缓存中，大表取缓存数据进行笛卡尔集
