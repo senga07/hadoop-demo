@@ -21,13 +21,13 @@ windowns+虚拟机+centos7环境下，启动WordCountApp报空指针：
 * 删除文件
 
 ### main.java.com.hadoop.hlsijx
-HadoopConfig:hadoop的配置文件
-wordcount：词频统计案例
-access：流量日志统计分析案例
-etl:对原始日志进行etl
-track&useragent:基于etl后的数据进行省份流量及ua统计
-mapjoin:mapjoin的实现案例
-reducejoin:reducejoin的实现案例
-utils:工具包
+* HadoopConfig:hadoop的配置文件
+* wordcount：词频统计案例
+* access：流量日志统计分析案例
+* etl:对原始日志进行etl
+* track&useragent:基于etl后的数据进行省份流量及ua统计
+* mapjoin:mapjoin的实现案例
+* reducejoin:reducejoin的实现案例
+* utils:工具包
 
 
