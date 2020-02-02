@@ -9,7 +9,6 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
@@ -53,7 +52,7 @@ public class ReduceJoinDriver {
         job.setOutputValueClass(NullWritable.class);
 
         Path outputDir = new Path(outputPath);
-        outputDir.getFileSystem(new Configuration()).delete(outputDir, true);
+        outputDir.getFileSystem(getConfiguration()).delete(outputDir, true);
 
         //检查文件是否已存在，若存在，则递归删除
         Path output = new Path(outputPath);
