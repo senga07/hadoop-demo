@@ -8,13 +8,26 @@ windowns+虚拟机+centos7环境下，启动WordCountApp报空指针：
 
 # 目录介绍
 
-### DemoTest
+### test.java.com.hadoop.hlsijx.demo.DemoTest
 该文件下是HDFS的Java API操作以及对应的Shell
-
 * 创建文件夹
 * 创建空文件并写入
+* 读文件
+* 文件重命名
+* 上传本地文件到HDFS
+* 下载HDFS文件到本地
+* 展示文件列表
+* 获取文件块信息
+* 删除文件
+
+### main.java.com.hadoop.hlsijx
+HadoopConfig:hadoop的配置文件
+wordcount：词频统计案例
+access：流量日志统计分析案例
+etl:对原始日志进行etl
+track&useragent:基于etl后的数据进行省份流量及ua统计
+mapjoin:mapjoin的实现案例
+reducejoin:reducejoin的实现案例
+utils:工具包
 
 
-
-### wordcount
-该目录下是一个词频统计的案例
